@@ -51,6 +51,14 @@ const IndexPage = () => (
                     title ="vue for Designers"
                     text="8 sections"
                     image={require('../images/wallpaper4.jpg')}/>
+                    <Card 
+                    title ="React for Designers"
+                    text="12 sections"
+                    image={require('../images/wallpaper.jpg')}/>
+                    <Card 
+                    title ="nextjs for Designers"
+                    text="2 sections"
+                    image={require('../images/wallpaper3.jpg')}/>
                     </div>
             </div>
   </div>
