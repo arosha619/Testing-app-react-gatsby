@@ -24,8 +24,8 @@ import Wave from './Wave';
     align-self: end;`
 
     const SectionTitleGroup = styled.div`
-    max-width: 800px;
-    margin: 0 40px;
+    max-width: 100%;
+    margin: 0 80px;
     display: grid;
     grid-gap: 20px;
     grid-template-columns: 300px auto;
@@ -52,6 +52,7 @@ import Wave from './Wave';
     position:absolute;
     width:100%;
     bottom:0;
+    margin-bottom: -20px;
     `
     const WaveTop =styled.div`
     position: absolute;
